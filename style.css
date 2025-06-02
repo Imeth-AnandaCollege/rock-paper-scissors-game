@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 40px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.game-container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 400px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choice button {
+  font-size: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.choice p {
+  margin: 5px 0 0;
+  font-weight: bold;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.icon {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+.result-text {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.scoreboard {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 200px;
+  text-align: center;
+  height: fit-content;
+}
+
+.scoreboard p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.prize {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
