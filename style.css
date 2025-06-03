@@ -64,23 +64,4 @@ body {
   margin-top: 25px;
 }
 
-.scoreboard {
-  background: white;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  width: 200px;
-  text-align: center;
-  height: fit-content;
-}
 
-.scoreboard p {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.prize {
-  margin-top: 20px;
-  font-size: 22px;
-  font-weight: bold;
-}
